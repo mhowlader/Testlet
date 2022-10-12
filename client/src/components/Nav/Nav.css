@@ -1,0 +1,197 @@
+.Nav .container-fluid{
+  background-color: #4257B2;
+  border-radius: 0px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.container-fluid a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#quizlet-logo {
+  color: white;
+  font-size: 25px;
+  margin-right: 40px;
+  margin-left: 10%;
+}
+
+.nav-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-search, .nav-create {
+  height: 61px;
+  width: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+
+.nav-create a {
+  color: white;
+}
+
+.nav-search:hover {
+  transition: .25s;
+  color: #5C6EBC;
+}
+
+.nav-create:hover {
+  transition: .25s;
+  color: #5C6EBC;
+}
+
+.nav-create:hover a {
+  transition: .25s;
+  color: #5C6EBC;
+}
+
+.glyphicon {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.separator {
+  font-size: 2em;
+  color: #3B4C9B;
+}
+
+.nav-login {
+  margin-right: 10%;
+  position: absolute;
+  right: 25px;
+}
+
+.nav-login ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+#navbar-login:hover {
+  transition: .25s;
+  color: #5C6EBC;
+}
+
+.sign-up-btn {
+  background-color: #3DCECF;
+  border: none;
+  border-radius: 0px;
+  color: white;
+  height: 45px;
+  width: 100px;
+  margin-left: 25px;
+}
+
+.sign-up-btn:hover {
+  transition: .25s;
+  background-color: #FFCD1F;
+  color: #6E6E4B;
+}
+
+#upgrade-btn {
+  height: 55px;
+  padding: 8px;
+}
+.Nav form {
+  width: 100%;
+  text-align: left;
+}
+.new-search {
+  width: 100%;
+  display: none;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.search-input {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.search-input-box {
+  border: none;
+  background-color: #4257B2;
+  width: 80%;
+  outline: none;
+  font-size: 20px;
+}
+
+.search-input-box::-webkit-input-placeholder {
+  color: #C0CACE;
+  font-size: 20px;
+  line-height: 3;
+  font-weight: 100;
+}
+
+.username {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 5px;
+}
+
+.dropdown {
+  position:absolute;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -2px 2px 2.5px 2px #E8E8E8, 2px 2px 2.5px 2px #E8E8E8;
+  width: 182px;
+  right: 0;
+}
+
+.caret {
+  z-index: 10;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: white;
+  right: 0;
+  top: -25px;
+  clip-path: polygon(0 100%, 50% 50%, 100% 100%);
+}
+
+.dropdown li {
+  height: 40px;
+  width: 182px;
+  text-align: left;
+  margin-left: -39px;
+  color: black;
+  padding-left: 15px;
+  padding-top: 10px;
+  z-index: 20;
+  background-color: white;
+}
+
+.dropdown li:hover {
+  transition: .25s;
+  background-color: #FFCD1F;
+  color: #6E6E4B;
+}
+
+.helpcenter {
+  border-top: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.profile-image {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  margin: 10px;
+}

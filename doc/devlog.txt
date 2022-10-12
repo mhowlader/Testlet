@@ -1,0 +1,139 @@
+
+Team azrael - Mohtasim Howlader, Jack Lu, Jason Tung
+Softdev pd 8
+---------------------
+The DevLog of Testlet
+
+
+ ______   ______   __   __   __       ______   _______     
+/_____/\ /_____/\ /_/\ /_/\ /_/\     /_____/\ /______/\    
+\:::_ \ \\::::_\/_\:\ \\ \ \\:\ \    \:::_ \ \\::::__\/__  
+ \:\ \ \ \\:\/___/\\:\ \\ \ \\:\ \    \:\ \ \ \\:\ /____/\ 
+  \:\ \ \ \\::___\/_\:\_/.:\ \\:\ \____\:\ \ \ \\:\\_  _\/ 
+   \:\/.:| |\:\____/\\ ..::/ / \:\/___/\\:\_\ \ \\:\_\ \ \ 
+    \____/_/ \_____\/ \___/_(   \_____\/ \_____\/ \_____\/ 
+==============================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+jackL -- 2019-01-08 13:52
+--------------------------------------------------------------
+- Created devlog.
+- Added database schema, API cards
+==============================================================
+jasonT -- 2019-01-08 14:02
+--------------------------------------------------------------
+- Added TTS connection in the APIS
+- Corrected OAUTH to OAUTH2
+==============================================================
+mohtasimH -- 2019-01-08 14:03
+--------------------------------------------------------------
+- Added flask folders, app.py, and necesary import statements
+==============================================================
+mohtasimH -- 2019-01-09 02:30
+--------------------------------------------------------------
+- design doc: Added reasoning for why we chose our frontend framework (bootstrap)
+- design doc: Added clarification to roles
+- design doc: Added to the to-do list
+
+==============================================================
+jasonT -- 2019-01-09 05:30
+--------------------------------------------------------------
+- Clarified that OAuth2 is a stretch goal and what it would be used for
+- fixed typos in component map
+- added a connection b/w display set and going back to home on site map
+- clarified what folders do in db
+- more detailed timeline including FLASK, JS, and CSS
+==============================================================
+jackL -- 2019-01-09 14:02
+--------------------------------------------------------------
+- created database and relational tables.
+- added database processing python file in util 
+==============================================================
+
+jasonT -- 2019-01-09 14:03
+--------------------------------------------------------------
+- added root route to app.py
+- created base.html
+- made a login template test page
+==============================================================
+jackL -- 2019-01-10 00:05
+--------------------------------------------------------------
+- Made database functions for registering user and logging in
+==============================================================
+jasonT -- 2019-01-11 4:56
+--------------------------------------------------------------
+- added following html files: base, landing, login, register
+- did a little bit of css to make it look bearable
+- finished robust login
+- finished robust register
+- cases/unique flash messages for different types of errors in forms
+- colored error/success on login
+- fixed/tweaked db file for login/register to be more modular
+==============================================================
+mohtasimH -- 2019-01-12 9:45
+--------------------------------------------------------------
+- Implemented bootstrap for website
+- set design scheme of project.
+==============================================================
+
+jasonT -- 2019-01-14 13:56
+--------------------------------------------------------------
+- fixed flashing that was broken from css
+- fixed broken buttons from css
+- added a signout
+==============================================================
+
+jasonT -- 2019-01-15 4:33
+--------------------------------------------------------------
+- finished set creation
+- finished viewing sets
+- powerful view set that can be reused for editing, deleting, studying, etc.
+- added some css
+- add 2 db functions: get all quizzes from a user, and add a term into the db
+mohtasimH -- 2019-01-15 10:30
+--------------------------------------------------------------
+- Added cards and buttons for sets to go to term list
+==============================================================
+==============================================================
+jackL -- 2019-01-15 13:49
+--------------------------------------------------------------
+- Added db function for deleting term from a quiz
+==============================================================
+jasonT -- 2019-01-16 03:06
+--------------------------------------------------------------
+- finished viewing public sets
+- finished viewing your own old sets
+- added a fx to refactor db lists
+- adjusted css on viewing pages
+- added username to navbar
+==============================================================
+jackL -- 2019-01-16 14:01
+--------------------------------------------------------------
+- Fixed database errors
+==============================================================
+mohtasimH -- 2019-01-17 12:30
+--------------------------------------------------------------
+- Added edit sets functionality
+==============================================================
+jasonT -- 2019-01-17 19:47
+--------------------------------------------------------------
+- finished study routing
+- finished studying js
+- finished studying html page
+- updated the headers to display the title rather than the quizid
+==============================================================
+jackL -- 2019-01-17 19:51
+--------------------------------------------------------------
+- Fixed formatting errors
+==============================================================
+mohtasimH -- 2019-01-17 19:50
+--------------------------------------------------------------
+- Added ability to take tests, submit them, and receive a grade on them
+==============================================================
+jackL -- 2019-01-17 19:51
+--------------------------------------------------------------
+- Updated design doc:
+- Did not implement search or API
+- Users can see their own sets and public sets
+==============================================================

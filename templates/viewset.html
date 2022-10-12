@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+<!-- fix this when jack adds the fx -->
+{% block title %}Viewing Set: {{ quizname }}{% endblock %}
+{% block body %}
+<h1>Viewing Set: {{ quizname }}</h1>
+<div class="container" style="padding:15px;">
+    <div class="row">
+
+        <div class="col-6  text-center">
+            <h3><b>Terms</b></h3>
+        </div>
+        <div class="col-6  text-center">
+            <h3><b>Definitions</b></h3>
+        </div>
+    </div>
+    {% for k, v in info %}
+    <div class="row">
+        <div class="col-6  text-center">
+            <div class="card">
+                <div class="card-body">
+                    {{ k }}
+                </div>
+            </div>
+        </div>
+        <div class="col-6  text-center">
+            <div class="card">
+                <div class="card-body">
+                    {{ v }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
